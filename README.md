@@ -1,55 +1,71 @@
-# Entrega: Rolando os Dados
+## DICE ROLLER
 
-Para começar, acesse [este link](https://gitlab.com/kenzie-academy-brasil/se/fe/getting-started-with-javascript/s_rolling-dice), faça o fork e clone o repo.
+- [Descrição](#descrição)
+- [Instalação](#instalação)
+- [Utilização](#utilização)
+- [Termos de uso](#termos-de-uso)
 
-**O objetivo desta atividade é simular a rolagem de dois dados várias vezes, anotar a frequencia de cada resultado e depois fazer o display dessas frequencias obtidas.**
+<br>
 
-Ao rolar dois dados de seis faces, cada dado irá mostrar um número entre 1 e 6. Quando estes números nos dois dados forem somados, o resultado será um número entre 2 e 12. **Multiplicar o resultado por 2 não é o mesmo que rolar dois dados**
+# Descrição
 
-Use JavaScript para simular 1000 lançamentos de um par de dados. *Você precisará descobrir como gerar números aleatórios no JavaScript, use suas habilidades de busca no Google!*
+<p><b>Dice roller</b> é um serviço simples que simula a rolagem de dois dados de 6 faces várias vezes, anota a frequencia de cada resultado e depois faz o display dessas frequencias obtidas. Esta aplicação utiliza HTML5, CSS3, DOM e a linguagem Javascript</p>
+<br>
 
-Para cada possível lançamento, conte a frequência. Você deve usar um array para registrar essas contagens.
+<p>Link GitlabPages:</p>
+https://abkura.gitlab.io/s_rolling-dice/
 
-Inicialize um array chamado *`count`* preenchendo-o com zeros. Em seguida, sempre que uma rolagem de dados resultar em, digamos, sete, adicione um ao valor do 7º elemento do array de contagem.
+# Instalação
 
-Por exemplo, se a variável rollOfDice contiver a rolagem atual, você pode incrementar a contagem com um código assim:
+<h5>0. Primeiramente, é necessário já ter instalado na própria máquina:</h5>
 
-```js
-count[rollOfDice] = count[rollOfDice] + 1;
+- <p> Um <b>editor de código</b>, conhecido também como <b>IDE</b>. Por exemplo, o <b>[Visual Studio Code (VSCode)](https://code.visualstudio.com/)</b>.</p>
+
+- <p> E versionar o diretório para receber o clone da aplicação:</p>
+
+```
+git init
 ```
 
-Depois que as 1000 rolagens terminarem, mostre o resultado delas em uma página HTML.
-
-Aqui está um exemplo do tipo de resultado que seu programa pode produzir:
+<br>
+<h5>1. Fazer o clone do reposítório <strong>Dice roller</strong> na sua máquina pelo terminal do computador ou pelo do IDE:</h5>
 
 ```
-2: 32  
-3: 50  
-4: 76  
-5: 120  
-6: 151  
-7: 161  
-8: 125  
-9: 121  
-10: 89  
-11: 52  
-12: 23
+git clone https://github.com/AndreKuratomi/dice-roller.git
 ```
 
-## Formato de saída
-Além do resultado numérico descrito acima, mostre os resultados finais em forma de uma barra gráfica (usando um DIV para cada barra, e variando as dimensões proporcionalmente aos resultados).
+<p>Entrar na pasta criada:</p>
 
-### Dica
-Como estamos falando de tamanhos específicos, usar classes de CSS não seria o mais apropriado, mas sim configurar o tamanho em pixels da altura ou largura de cada barra representando cada valor.
-
-Para isso podemos usar a propriedade style para configurar a altura ou largura individual de cada barra. E podemos fazer isso dinamicamente usando o DOM no JavaScript da seguinte forma:
-
-```javascript
-minhaBarra.style.width = `${larguraDaBarra}px`;
+```
+cd dice-roller
 ```
 
-onde minhaBarra é a variável contendo o DOM element da div e larguraDaBarra é a variável contendo o valor a ser aplicado.
+<p>E rodar a aplicação:</p>
 
-## Envio
+```
+code .
+```
 
-Faça o push do código para o seu repositório GitLab e implemente-o via GitLab pages. No Canvas, por favor, envie a url de seu Gitlab Pages (ex: https://nomedeusuario.gitlab.io/s_rolling-dice/) e, no GitLab, adicione o grupo `ka-br-<sua-turma>-correcoes` como membro do seu projeto com a permissão "Reporter".
+<br>
+
+
+# Utilização
+
+
+<h3>Via VSCode:</h3>
+
+<p>Precisamos rodar a extensão do VSCode <b>Go live</b></p>
+
+<p>A aplicação rodará no navegador automaticamente.</p>
+
+
+<h3>Via Deploy GitlabPages:</h3>
+
+<p>Basta clicar no link abaixo:</p>
+
+https://abkura.gitlab.io/s_rolling-dice/
+
+
+# Termos de uso
+
+<p>Esta aplicação atende a fins exclusivamente didáticos e não possui qualquer intuito comercial.</p>
