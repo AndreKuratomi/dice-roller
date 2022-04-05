@@ -9,7 +9,7 @@
 
 # Descrição
 
-<p><b>Dice roller</b> é um serviço simples que simula a rolagem de dois dados de 6 faces várias vezes, anota a frequencia de cada resultado e depois faz o display dessas frequencias obtidas. Esta aplicação utiliza HTML5, CSS3, DOM e a linguagem Javascript</p>
+<p><b>Dice roller</b> é um serviço simples que simula a rolagem de dois dados de 6 faces 1000 vezes, anota a frequência de cada resultado e depois faz o display dessas frequencias obtidas. Esta aplicação utiliza HTML5, CSS3, DOM e a linguagem Javascript</p>
 <br>
 
 <p>Link GitlabPages:</p>
